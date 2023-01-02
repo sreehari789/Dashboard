@@ -1,0 +1,30 @@
+<div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="20px">
+
+
+
+<mat-card>
+    <mat-card><app-widget-card bg="red" total="1000" icon="dashboard" desc="Dashboard"></app-widget-card>
+        </mat-card>
+  </mat-card>
+  <mat-card>
+    <mat-card><app-widget-card bg="green" total="2" to icon="home" desc="Insttution"></app-widget-card>
+    </mat-card>
+  </mat-card>
+  <mat-card>
+    <mat-card><app-widget-card bg="orange" total="2000" icon="person" desc="Students"></app-widget-card>
+    </mat-card>
+  </mat-card>
+
+  <mat-card>
+    <mat-card><app-widget-card bg="yellow" total="60" icon="group" desc="Employees"></app-widget-card>
+    </mat-card>
+  </mat-card>
+</div>  
+<app-widget-chart></app-widget-chart>
+
+<div  fxLayout="row" fxLayoutAlign="space-evenly" fxLayout="20px">
+  <div fxFlex="60"><app-widget-table></app-widget-table></div>
+
+  <div fxFlex="40"><app-widget-pie></app-widget-pie></div>
+</div>
+
